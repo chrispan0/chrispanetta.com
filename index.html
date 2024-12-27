@@ -39,16 +39,33 @@
         .btn-primary {
             font-size: 1rem;
             padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-primary i {
+            margin-right: 8px;
+        }
+        .signature {
+            margin-top: 20px;
+            font-style: italic;
+            font-size: 1rem;
+            color: #555;
         }
     </style>
 </head>
 <body>
     <div class="container shadow-lg p-3 mb-5 bg-body rounded">
         <h1>Website Under Renovation</h1>
-        <p>This website is currently under renovation, however you can find the most recent version of it here. I apologize for the inconvenience - Chris Panetta, Owner of chrispanetta.com</p>
-        <a href="https://web.archive.org/web/20241128055939/https://chrispanetta.com/" target="_blank" class="btn btn-primary">View Website Here</a>
+        <p>This website is currently under renovation, however you can find the most recent version of it here.</p>
+        <a href="https://web.archive.org/web/20241128055939/https://chrispanetta.com/" target="_blank" class="btn btn-primary">
+            <i class="bi bi-link-45deg"></i> View Website Here
+        </a>
+        <div class="signature">Chris Panetta, Owner of chrispanetta.com</div>
     </div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </body>
 </html>
