@@ -1,0 +1,12 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[2429],{
+
+/***/ 955508:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(813110);self._fe4d99ebe0d2d259646a80d250150d47 = self._fe4d99ebe0d2d259646a80d250150d47 || {};(function(__c) {var YX;var VX;__c.PX=function(a){let {r:b,g:c,b:d}=a;c/=255;d/=255;a=b/255;b=.04045>=a?a/12.92:((a+.055)/1.055)**2.4;c=.04045>=c?c/12.92:((c+.055)/1.055)**2.4;d=.04045>=d?d/12.92:((d+.055)/1.055)**2.4;return new __c.pz(100*(.4360747*b+.3850649*c+.1430804*d),100*(.2225045*b+.7168786*c+.0606169*d),100*(.0139322*b+.0971045*c+.7141733*d))};
+__c.QX=function(a){const b=__c.vz.Kqa,c=__c.vz.bMa,d=__c.vz.aMa;let {x:e,y:f,z:g}=a;e/=b.x;f/=b.y;g/=b.z;a=f>d?Math.cbrt(f):(c*f+16)/116;return new __c.lz(116*a-16,500*((e>d?Math.cbrt(e):(c*e+16)/116)-a),200*(a-(g>d?Math.cbrt(g):(c*g+16)/116)))};__c.RX=function(a){return __c.dz(__c.uz(a))};
+__c.SX=function(a){return a instanceof __c.$y?(a=__c.PX(a),__c.QX(a)):a instanceof __c.pz?__c.QX(a):a instanceof __c.sz?__c.mz(a):a instanceof __c.tz?(a=__c.nz(a),__c.SX(a)):"string"===typeof a?(a=__c.oz(a),a=__c.PX(a),__c.QX(a)):a};__c.TX=function(a){const b={...a.props},c=void 0!==a.za?a.za:a.rS;(void 0!==a.El?a.El:a.span).ED(({Tq:d,bE:e})=>{d=a.Dib?{}:{eh:d()};c.track(a.event,{...d,ym:e(),...b})})};__c.UX=function(a,b,c){return 0>c?a:1<c?b:a+(b-a)*c};VX=__webpack_require__(443763);__c.mib=VX.Fragment;
+__c.WX=VX.jsx;__c.nib=VX.jsxs;var XX;XX=__webpack_require__(875604);__c.oib=XX.useEffect;__c.pib=XX.useId;__c.qib=XX.useLayoutEffect;__c.rib=XX.useRef;__c.sib=__webpack_require__(42782).EH;YX=__c.YX=class{static aP(a,b,c){return 0>=c?a:1<=c?b:YX.isEqual(a,b)?a:new YX(__c.UX(a.r,b.r,c),__c.UX(a.g,b.g,c),__c.UX(a.b,b.b,c),__c.UX(a.a,b.a,c))}static multiply(a,b){return YX.isEqual(a,__c.ZX)?b:YX.isEqual(b,__c.ZX)?a:new YX(a.r*b.r,a.g*b.g,a.b*b.b,a.a*b.a)}static isEqual(a,b){return a.r===b.r&&a.g===b.g&&a.b===b.b&&a.a===b.a}static fromHex(a){a=a.startsWith("#")?a.substr(1):a;a=parseInt(a,16);return new YX(Math.floor(a/65536)%256/255,Math.floor(a/256)%256/255,a%256/255,1)}constructor(a=0,
+b=0,c=0,d=0){this.r=a;this.g=b;this.b=c;this.a=d}};__c.$X=new YX(1,1,1,0);__c.ZX=new YX(1,1,1,1);
+}).call(self, self._fe4d99ebe0d2d259646a80d250150d47);}
+
+}])
+//# sourceMappingURL=sourcemaps/b9b0e507c2c6cd5e.js.map
